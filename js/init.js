@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
 	arlo_tm_imgtosvg();
 	arlo_tm_data_images();
 	arlo_tm_jarallax();
-	arlo_tm_portfolio();
+	arlo_tm_projects();
 	arlo_tm_projects();
 	arlo_tm_isotope();
 	arlo_tm_contact_form();
@@ -469,15 +469,15 @@ function arlo_tm_jarallax(){
 
 // filterable 
 
-function arlo_tm_portfolio(){
+function arlo_tm_projects(){
 
 	"use strict";
 
 	if(jQuery().isotope) {
 
 		// Needed variables
-		var list 		 = jQuery('.arlo_tm_portfolio .portfolio_list ul');
-		var filter		 = jQuery('.arlo_tm_portfolio .portfolio_filter ul');
+		var list 		 = jQuery('.arlo_tm_projects .projects_list ul');
+		var filter		 = jQuery('.arlo_tm_projects .projects_filter ul');
 
 		if(filter.length){
 			// Isotope Filter 
@@ -504,25 +504,25 @@ function arlo_tm_portfolio(){
 	}
 }
 
-function arlo_tm_projects() {
+function arlo_tm_projectss() {
 	
 	"use strict";
 	
-	jQuery('.arlo_tm_portfolio_animation_wrap').each(function() {
+	jQuery('.arlo_tm_projects_animation_wrap').each(function() {
 		jQuery(this).on('mouseenter', function() {
 			if (jQuery(this).data('title')) {
-				jQuery('.arlo_tm_portfolio_titles').html(jQuery(this).data('title') + '<span class="work__cat">' + jQuery(this).data('category') + '</span>');
-				jQuery('.arlo_tm_portfolio_titles').addClass('visible');
+				jQuery('.arlo_tm_projects_titles').html(jQuery(this).data('title') + '<span class="work__cat">' + jQuery(this).data('category') + '</span>');
+				jQuery('.arlo_tm_projects_titles').addClass('visible');
 			}
 
 			jQuery(document).on('mousemove', function(e) {
-				jQuery('.arlo_tm_portfolio_titles').css({
+				jQuery('.arlo_tm_projects_titles').css({
 					left: e.clientX - 10,
 					top: e.clientY + 25
 				});
 			});
 		}).on('mouseleave', function() {
-			jQuery('.arlo_tm_portfolio_titles').removeClass('visible');
+			jQuery('.arlo_tm_projects_titles').removeClass('visible');
 		});
 	});
 }

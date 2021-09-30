@@ -25,11 +25,11 @@ body.dark .arlo_tm_services .service_inner ul li .inner{
 body.dark .arlo_tm_services .service_inner ul li .inner:hover{box-shadow: 0px 0px 20px rgb(255 255 255 / 20%);}
 body.dark .arlo_tm_services .lets_work a{color: #fff;}
 body.dark .arlo_tm_services .lets_work a:before{background: rgba(255,255,255,.2);}
-body.dark .arlo_tm_portfolio .portfolio_filter ul li a{color: #fff;}
-body.dark .arlo_tm_news{background-color: #111;}
-body.dark .arlo_tm_news .news_list ul li .details .title a{color: #fff;}
-body.dark .arlo_tm_news .news_list ul li .details .date{color: #bbb;}
-body.dark .arlo_tm_news .news_list ul li .details .date a{color: #bbb;}
+body.dark .arlo_tm_projects .projects_filter ul li a{color: #fff;}
+body.dark .arlo_tm_projects{background-color: #111;}
+body.dark .arlo_tm_projects .projects_list ul li .details .title a{color: #fff;}
+body.dark .arlo_tm_projects .projects_list ul li .details .date{color: #bbb;}
+body.dark .arlo_tm_projects .projects_list ul li .details .date a{color: #bbb;}
 body.dark .arlo_tm_modalbox_news .details .title{color: #000;}
 body.dark .arlo_tm_modalbox_news .description p{color: #333;}
 body.dark .arlo_tm_contact .fields ul li input{
