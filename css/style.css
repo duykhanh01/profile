@@ -51,6 +51,16 @@ img.svg{
 	width: 15px;
 	height: 15px;
 }
+
+.container{
+	max-width: 1280px !important;
+}
+
+.form-edit{
+	width: 50% !important;
+	margin: auto !important;
+}
+
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: #6f6f6f;
 }
@@ -818,14 +828,7 @@ h6 { font-size: 16px; }
 /*	07) ARLO PORTFOLIO
 /*---------------------------------------------------*/
 
-.arlo_tm_projects{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	margin-bottom: 100px;
-	padding-top: 141px;
-}
+
 .arlo_tm_projects .portfolio_inner{
 	width: 100%;
 	height: auto;
